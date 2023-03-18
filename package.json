@@ -12,19 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6",
     "method-override": "^3.0.0",
     "mongoose": "^6.7.2",
     "mongoose-delete": "^0.5.4",
-    "mongoose-slug-generator": "^1.0.4"
+    "mongoose-slug-generator": "^1.0.4",
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
     "morgan": "^1.10.0",
     "node-sass": "^8.0.0",
-    "nodemon": "^2.0.20",
     "prettier": "^2.7.1"
   }
 }

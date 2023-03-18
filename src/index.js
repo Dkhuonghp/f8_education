@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const methodsOverride = require('method-override');
 const path = require('path');
 const app = express();
-const port = 3000;
+const port = 3001;
 
 const route = require('./routes');
 const data = require('./config/db');
